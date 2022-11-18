@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
     private fun setIcon(menuItem: MenuItem?) {
         if (menuItem == null)
             return
-            menuItem.icon =
+        menuItem.icon =
             if (isLinearLayoutManager)
                 ContextCompat.getDrawable(this, R.drawable.ic_baseline_view_module_24)
             else ContextCompat.getDrawable(this, R.drawable.ic_baseline_view_list_24)
